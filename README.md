@@ -2,6 +2,27 @@
 
 A small Java terminal quiz for an SDD knowledge-sharing session. It includes question banks on AI, Elsevier, India, Spec-Driven Development (SDD), France, and Britain.
 
+## Repository structure
+
+```text
+pub-quiz/
+├── build.gradle                         # Gradle build and test configuration
+├── settings.gradle                      # Gradle project name
+├── .sdkmanrc                            # Recommended Java version for SDKMAN
+├── .gitignore                            # Local and generated files to ignore
+├── README.md                             # Project and workshop instructions
+└── src/
+    ├── main/java/com/elsevier/pubquiz/
+    │   ├── Main.java                     # Terminal interface and game flow
+    │   ├── AnswerReader.java             # Reads A–D or 1–4 answers
+    │   ├── Question.java                 # Question model and answer checking
+    │   ├── QuestionBank.java             # Themed question bank
+    │   ├── QuizGame.java                 # Quiz state and scoring
+    │   └── Theme.java                    # Available quiz themes
+    └── test/java/com/elsevier/pubquiz/
+        └── QuizGameTest.java             # Automated tests
+```
+
 ## Run it
 
 Requires Java 11 or later and Gradle.
