@@ -31,7 +31,7 @@ public final class Main {
             for (int i = 0; i < question.options().size(); i++) {
                 System.out.printf("   %s. %s%n", (char) ('A' + i), question.options().get(i));
             }
-            int answer = readNumber(scanner, 1, 4) - 1;
+            int answer = AnswerReader.read(scanner);
             if (game.answer(question, answer)) {
                 System.out.println("✅ Correct!\n");
             } else {

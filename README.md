@@ -19,7 +19,7 @@ The starter game is intentionally simple. Each group should choose one feature, 
 Choose one:
 
 1. **50/50 lifeline** — remove two incorrect answers, usable once per quiz.
-2. **Categories** — allow the player to choose a category or mix all categories.
+2. **Question count** — let the player choose a short, medium, or full-length round.
 3. **Leaderboard** — record player names and scores during the current run.
 4. **Timed questions** — give the player 15 seconds to answer each question.
 5. **Team mode** — let two teams alternate questions and keep separate scores.
